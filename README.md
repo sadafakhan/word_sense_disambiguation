@@ -1,0 +1,3 @@
+## Description
+
+This program disambiguates the word sense of given words by using WordNet Information Content (IC) and Resnik similarity. It takes a text file formatted as "[probe-word]:, [noun group words]", and computes the similarity of the probe words to each word in the noun group. It also takes a text file of human judgements of the similarity between said pairs of words, to compare against. 
